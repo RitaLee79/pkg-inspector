@@ -1,0 +1,71 @@
+# ----- macOS System Files -----
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ----- Thumbnails -----
+._*
+
+# ----- Temporary Files -----
+*.swp
+*.swo
+*~
+*.tmp
+*.bak
+
+# ----- Directories -----
+**/dist
+**/.Trashes
+**/.Spotlight-V100
+**/.TemporaryItems
+**/.fseventsd
+
+# ----- IDE/Specific Editor Files -----
+.idea/
+.vscode/
+*.code-workspace
+
+# ----- Sensitive Data -----
+*.key
+*.pem
+*.cert
+*.secret
+.env
+secrets/
+credentials/
+
+# ----- Firefox Cache/Logs -----
+**/storage/
+**/cache/
+**/crashes/
+**/minidumps/
+**/datareporting/
+**/saved-telemetry-pings/
+**/startupCache/
+**/weave/
+**/Crash Reports/
+
+# ----- Python/Virtualenv -----
+.python-version
+__pycache__/
+*.py[cod]
+*.venv
+venv/
+env/
+ENV/
+
+# ----- Homebrew -----
+*.bottle.*
+*.brew/
+
+# ----- Backup Files -----
+*.backup
+*.old
+
+# ----- Logs -----
+*.log
+logs/
+
+# ----- Excepciones (opcional, si quieres trackear algunos archivos ocultos) -----
+!.gitignore
+!README.md
