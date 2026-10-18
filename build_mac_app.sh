@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# Build the macOS application
-pyinstaller \
+# Build the macOS application (PyInstaller viene del grupo dev de uv)
+uv run pyinstaller \
     --name "PKG Inspector" \
     --windowed \
     --onefile \

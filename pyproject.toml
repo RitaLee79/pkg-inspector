@@ -1,0 +1,13 @@
+[project]
+name = "pkg-inspector"
+version = "0.1.0"
+description = "Inspector de paquetes .pkg de macOS (Tkinter)"
+requires-python = ">=3.12,<3.13"
+dependencies = []
+
+[dependency-groups]
+# build_mac_app.sh empaqueta la aplicación con PyInstaller
+dev = ["pyinstaller>=6"]
+
+[tool.uv]
+package = false

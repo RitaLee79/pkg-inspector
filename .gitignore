@@ -46,7 +46,7 @@ credentials/
 **/Crash Reports/
 
 # ----- Python/Virtualenv -----
-.python-version
+.venv/
 __pycache__/
 *.py[cod]
 *.venv
